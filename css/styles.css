@@ -172,7 +172,7 @@ ul {
   line-height: 2em;
   text-align: center;
 }
-.connection .link {
+.link {
   text-decoration: none;
 }
 
@@ -198,17 +198,17 @@ ul {
   color: #212121;
   font-weight: 700px;
   font-size: 18px;
-  text-decoration: none;
   line-height: 2em;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
 
 .project .title {
   color: #757575;
   font-weight: 400px;
   font-size: 16px;
-  text-decoration: none;
   line-height: 1.88em;
+  text-decoration: none;
 }
 
 .project .text {
