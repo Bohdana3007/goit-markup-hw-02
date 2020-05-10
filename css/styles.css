@@ -92,9 +92,6 @@ ul {
   vertical-align: top;
 }
 
-.feature-list .link:hover {
-  color: #2196f3;
-}
 .feature-list .heroes-name {
   color: #757575;
   font-weight: 400px;
@@ -127,7 +124,7 @@ ul {
 /* Чем мы занимаемся */
 .work-list .title {
   color: #ffffff;
-  background-color: #757575;
+  background: rgba(47, 48, 58, 0.8);
   font-weight: 700px;
   font-size: 14px;
   line-height: 1.14em;
@@ -148,36 +145,38 @@ ul {
 /* Footer */
 .footer .adress {
   color: #ffffff;
-  background-color: #212121;
+  background: #2f303a;
   font-weight: 400px;
   font-size: 14px;
   line-height: 1.7em;
 }
 .footer .contacts {
   color: rgba(255, 255, 255, 0.6);
-  background-color: #212121;
+  background: #2f303a;
   font-weight: 400px;
   font-size: 14px;
   line-height: 1.7em;
 }
 .connection {
   color: #ffffff;
-  background-color: #212121;
+  background: #2f303a;
   font-weight: 700px;
   font-size: 14px;
   line-height: 1.14em;
 }
 .company {
   color: rgba(255, 255, 255, 0.4);
-  background-color: #212121;
+  background: #2f303a;
   font-weight: 400px;
   font-size: 12px;
   line-height: 2em;
   text-align: center;
 }
+.connection .link {
+  text-decoration: none;
+}
 
 /* Portfolio  */
-
 .button-portfolio {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
@@ -195,11 +194,11 @@ ul {
   background-color: var(--accent-color);
   display: inline-block;
 }
-
 .project .name {
   color: #212121;
   font-weight: 700px;
   font-size: 18px;
+  text-decoration: none;
   line-height: 2em;
   letter-spacing: 0.06em;
 }
@@ -208,6 +207,7 @@ ul {
   color: #757575;
   font-weight: 400px;
   font-size: 16px;
+  text-decoration: none;
   line-height: 1.88em;
 }
 
@@ -217,4 +217,5 @@ ul {
   font-weight: 400px;
   font-size: 18px;
   line-height: 1.5em;
+  text-decoration: none;
 }
