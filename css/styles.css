@@ -200,7 +200,6 @@ ul {
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.06em;
-  text-decoration: none;
 }
 
 .project .title {
@@ -208,7 +207,6 @@ ul {
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.88em;
-  text-decoration: none;
 }
 
 .project .text {
@@ -217,5 +215,7 @@ ul {
   font-weight: 400px;
   font-size: 18px;
   line-height: 1.5em;
+}
+.project .link {
   text-decoration: none;
 }
