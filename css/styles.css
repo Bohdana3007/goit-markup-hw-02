@@ -32,6 +32,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo-accent {
@@ -143,30 +144,50 @@ ul {
   letter-spacing: 0.06em;
 }
 /* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-style: 700px;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer .logo-accent {
+  color: #2196f3;
+}
+
+.footer .logo:hover {
+  color: #ffffff;
+}
 .footer .adress {
   color: #ffffff;
-  background: #2f303a;
+  background-color: #2f303a;
   font-weight: 400px;
   font-size: 14px;
   line-height: 1.7em;
 }
 .footer .contacts {
   color: rgba(255, 255, 255, 0.6);
-  background: #2f303a;
+  background-color: #2f303a;
   font-weight: 400px;
   font-size: 14px;
   line-height: 1.7em;
 }
 .connection {
   color: #ffffff;
-  background: #2f303a;
+  background-color: #2f303a;
   font-weight: 700px;
   font-size: 14px;
   line-height: 1.14em;
 }
 .company {
   color: rgba(255, 255, 255, 0.4);
-  background: #2f303a;
+  background-color: #2f303a;
   font-weight: 400px;
   font-size: 12px;
   line-height: 2em;
